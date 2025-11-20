@@ -1,0 +1,136 @@
+        body {
+            background-color: #e7dfdf;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            position: relative;
+            height: 1000px;
+        }
+        
+        #on {
+            font-family: Arial, sans-serif;
+            font-size: 300px;
+            color: #df0283;
+            display: flex;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+            top: 0px;
+            width: 100%;
+        }
+        
+        #on2{
+            font-family: Arial, sans-serif;
+            font-size: 300px;
+            color: #df0283;
+            display: flex;
+            position: absolute;
+            top: 190px;
+            left: 50%;  
+            transform: translate(-50%, -50%);
+            justify-content: center;
+            align-items: center;
+            line-height: 1;
+            width: 100%;
+        }
+        
+        #ft{
+            position: absolute;
+            right: 100px;
+            top: 150px;
+            border-radius: 50px;
+            width: 500px;
+            height: 500px;
+        }
+        
+        .container2{
+            display: flex;
+            position: absolute;
+            top: 480px;
+            font-size: 24px;
+            flex-direction: column;
+            margin: 50px 0 0 0;
+            padding: 0;
+            left: 90px;
+            right: 800px;
+        }
+        
+        .container2 h2 {
+            font-family: Arial, sans-serif;
+            font-size: 36px;
+            color: #070707;
+            margin: 0 0 20px 0;
+            padding: 0;
+        }
+        
+        .container2 p {
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            color: #070707;
+            margin: 0;
+            padding: 0;
+            line-height: 1.2;
+        }
+        
+        .naviki {
+            position: absolute;
+            top: 800px;
+            left: 90px;
+            right: 50px;
+            font-size: 24px;
+        }
+        
+        .naviki h2 {
+            font-family: Arial, sans-serif;
+            font-size: 40px;
+            color: #070707;
+            margin: 0;
+            padding: 0;
+        }
+
+        .skills-columns {
+            display: flex;
+            gap: 100px;
+        }
+
+        .skills-column {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .skills-column h2 {
+            font-family: Arial, sans-serif;
+            font-size: 30px;
+            color: #070707;
+            margin: 40px 0 20px 0;
+            padding: 0;
+        }
+
+        .skills-column ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .skills-column li {
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            color: #070707;
+            margin: 15px 0;
+            padding: 0;
+        }
+
+        .naviki h1 {
+            font-family: Arial, sans-serif;
+            font-size: 40px;
+            color: #070707;
+            margin: 40px 0 20px 0;
+        }
+        .rabt{
+            text-align: center;
+        }
